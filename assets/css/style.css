@@ -129,10 +129,11 @@ form.signup input.form-control:focus {
 /* wrapper */
 
 #wrapper {
-	text-align: center;
-	padding: 5% 0 0 0;
-	background: url(../img/main-bg.jpg);
-  background-size: cover;
+    text-align: center;
+    padding: 5% 0 0 0;
+    background: url(../img/main-bg.jpg);
+    background-size: cover;
+    min-height: 100%;
 }
 
 
@@ -144,6 +145,11 @@ form.signup input.form-control:focus {
 	font-size: 45px;
 	font-weight: 900;
 	letter-spacing: -1px;
+}
+
+/* separator */
+.separator {
+    height: 270px;
 }
 
 h2.subtitle {
@@ -228,7 +234,7 @@ p.copyright {
 	text-align: center;
   padding: 0;
   margin-bottom: 5px;
-}	
+}
 
 .credits, .credits a {
     color: #fff;

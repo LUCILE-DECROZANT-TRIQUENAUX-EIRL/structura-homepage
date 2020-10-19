@@ -4,12 +4,12 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="Structura est une application web de gestion d'adhérent·es gratuite et libre.">
+        <meta name="description" content="Structura est une application web de gestion d'adhérent·es gratuite et libre. Consultez sa documentation de manière à apprendre à l'installer et l'utiliser.">
         <meta name="author" content="Associatif en ligne">
 
         <link rel="icon" type="image/png" href="img/favicon.png" />
 
-        <title>Structura - Accueil</title>
+        <title>Structura - Documentation</title>
 
         <!-- Bootstrap core CSS -->
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,7 +25,7 @@
     <body>
 
         <h1 class="site-heading text-center text-white d-none d-lg-block">
-            <span class="site-heading-upper text-primary mb-3">Gérez facilement votre base adhérente avec</span>
+            <span class="site-heading-upper text-primary mb-3">Retrouvez toute la documentation de</span>
             <span class="site-heading-lower">Structura</span>
         </h1>
 
@@ -44,63 +44,59 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item active px-lg-4">
-                            <a class="nav-link text-uppercase text-expanded" href="index.html">Accueil
-                                <span class="sr-only">(page courante)</span>
+                        <li class="nav-item px-lg-4">
+                            <a class="nav-link text-uppercase text-expanded" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item px-lg-4">
+                            <a class="nav-link text-uppercase text-expanded" href="about.html">
+                                À propos
                             </a>
                         </li>
                         <li class="nav-item px-lg-4">
-                            <a class="nav-link text-uppercase text-expanded" href="about.html">À propos</a>
+                            <a class="nav-link text-uppercase text-expanded" href="features.html">
+                                Fonctionnalités
+                            </a>
                         </li>
-                        <li class="nav-item px-lg-4">
-                            <a class="nav-link text-uppercase text-expanded" href="features.html">Fonctionnalités</a>
-                        </li>
-                        <li class="nav-item px-lg-4">
-                            <a class="nav-link text-uppercase text-expanded" href="documentation.html">Documentation</a>
+                        <li class="nav-item active px-lg-4">
+                            <a class="nav-link text-uppercase text-expanded" href="documentation.html">
+                                Documentation
+                                <span class="sr-only">(page courante)</span>
+                            </a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <section class="page-section clearfix">
-            <div class="container">
-                <div class="intro">
-                    <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt="">
-                    <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-                        <h2 class="section-heading mb-4">
-                            <span class="section-heading-upper">Un outil</span>
-                            <span class="section-heading-lower">intuitif</span>
-                        </h2>
-                        <p class="mb-3">
-                            Structura permet de gérer les adhésions et dons d’associations à but non lucratif.
-                            Elle a été créée pour répondre au besoin d'outils à la portée de personnes
-                            non familiarisées à l'informatique.
-                        </p>
-                        <div class="intro-button mx-auto">
-                            <a class="btn btn-primary btn-xl" href="features.html#mainNav">En apprendre plus&nbsp;!</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <section class="page-section cta">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-9 mx-auto">
                         <div class="cta-inner text-center rounded">
-                            <h2 class="section-heading mb-4">
-                                <span class="section-heading-upper">Une solution</span>
-                                <span class="section-heading-lower">Gratuite</span>
+                            <h2 class="section-heading mb-5">
+                                <span class="section-heading-upper">Besoin d'aide&nbsp;?</span>
+                                <span class="section-heading-lower">Nos ressources</span>
                             </h2>
-                            <p class="mb-0">
-                                Structura a été créée à destination des associations loi 1901
-                                qui souhaitent utiliser un outil informatique performant et
-                                facile à prendre en main sans impacter leur budget.
-                                Structura est donc gratuite et nous la développons
-                                sous licence open source afin de vous garantir qu'elle le reste.
+                            <p>
+                                Toute la <strong>documentation</strong> de Structura est accessible en ligne
+                                à l'adresse <a href="https://documentation.structura.associatif.online">
+                                    https://documentation.structura.associatif.online
+                                </a>
                             </p>
+                            <a class="btn btn-xl btn-primary mt-4 mb-5 text-uppercase" href="https://documentation.structura.associatif.online">
+                                Consulter la documentation
+                            </a>
+                            <p>
+                                Vous y retrouverez tous les modes d'emploi que nous avons rédigé
+                                <br/>dans le but de vous aider à utiliser l'application.
+                            </p>
+                            <hr class="m-5"/>
+                            <p>
+                                Si néanmoins vous ne trouvez pas l'information que vous cherchez,
+                                <br/>contactez-vous à <a href="mailto:associatif.online@gmail.com">associatif.online@gmail.com</a>,
+                                <br/>nous nous ferons un plaisir de vous répondre.
+                            </p>
+
                         </div>
                     </div>
                 </div>
@@ -116,6 +112,11 @@
         <!-- Bootstrap core JavaScript -->
         <script src="vendor/jquery/jquery.min.js"></script>
         <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Script to highlight the active date in the hours list -->
+        <script>
+            $('.list-hours li').eq(new Date().getDay()).addClass('today');
+        </script>
 
     </body>
 

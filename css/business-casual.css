@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Lora';
-    background-image: linear-gradient(rgba(50, 37, 34, 0.99), rgba(50, 37, 34, 0.65)), url("../img/bg.jpg");
+    background-image: linear-gradient(rgba(50, 37, 34, 0.99), rgba(50, 37, 34, 0.65)), url("../img/bg.webp");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
